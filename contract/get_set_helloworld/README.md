@@ -28,7 +28,7 @@ target/wasm32v1-none/release/message_contract.wasm
 ### En Testnet (Recomendado para pruebas)
 
 ```plaintext
-soroban contract deploy \ 
+stellar contract deploy \ 
 --wasm target/wasm32v1-none/release/et_set_message.wasm \ 
 --source <identity> \ 
 --network testnet \
@@ -42,7 +42,7 @@ soroban contract deploy \
 bash
 
 ```plaintext
-soroban contract invoke \  
+stellar contract invoke \  
 --id get_set_message \   
 --source <identity> \
 --network testnet \
@@ -56,7 +56,7 @@ set_message \
 bash
 
 ```plaintext
-soroban contract invoke \  
+stellar contract invoke \  
 --id  get_set_message \
 --source <identity> \
 --network testnet \
@@ -77,7 +77,7 @@ Espera aproximadamente 10 minutos y vuelve a consultar:
 bash
 
 ```plaintext
-soroban contract invoke \  
+stellar contract invoke \  
 --id get_set_message \  
 --source <identity> \ 
 --network testnet \   
