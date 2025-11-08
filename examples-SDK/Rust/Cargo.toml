@@ -1,0 +1,13 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+stellar-rpc-client = "21.0.0"
+stellar-xdr = { version = "21.0.0", features = ["curr"] }
+stellar-strkey = "0.0.8"
+tokio = { version = "1", features = ["full"] }
+hex = "0.4"
+sha2 = "0.10"
+ed25519-dalek = { version = "2.0", features = ["rand_core"] }
