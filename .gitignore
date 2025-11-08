@@ -48,5 +48,5 @@
 /web/get_set/next-env.d.ts
 
 # Examples
-/examples-SDK/message-rust/target/*
-/examples-SDK/ECMAScript/node_modules/*
+/examples-SDK/rust/target/*
+/examples-SDK/ecmascript/node_modules/*
